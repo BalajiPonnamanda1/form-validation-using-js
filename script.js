@@ -2,7 +2,7 @@ import { users } from "./data.js";
 
 // login validation 
 function checked(userName, password) {  
-    return users.find(x => x.name === userName && x.passkey === password) !== undefined;  
+    return users.find(x => x.name === userName && x.passkey === password)
 }
 
 let x = document.getElementById("form");
